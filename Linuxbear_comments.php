@@ -1,8 +1,8 @@
 
 <?PHP
 $mydatabase='BearBase';
-$username='kermit';
-$password='AnimalRocks1!';
+$username='fozzie';
+$password='bearsAreGreat0^';
 $hostname = 'localhost';  
 $mytable ='BearTable';
   // form handler
