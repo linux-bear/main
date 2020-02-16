@@ -25,9 +25,8 @@ $mytable ='BearTable';
   }
   else
   {
-      print_r("It's all bollocks!");
+      print_r("Something's gone wrong!");
   }
-   //  or die("It's all gone tits up: ".mysqli_error($dbhandle));
 
 
 mysqli_close($dbhandle);
@@ -94,8 +93,11 @@ mysqli_close($dbhandle);
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="Linuxbear_home.html">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="AboutMe.html">About Me</a></li>
+            <li><a href="DeveloperSkills.html">Developer Skills</a></li>
+            <li><a href="Databases.html">Databases</a></li>
+            <li><a href="Linux.html">Linux</a></li>
+            <li><a href="Linuxbear_comments.php">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
